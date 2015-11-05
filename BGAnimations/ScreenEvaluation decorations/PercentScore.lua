@@ -114,6 +114,10 @@ if IsPlayerEnabled(PLAYER_1) then
 					dColor = jColors[3]
 					IsVisible = true
 					alpha = 0.5
+				elseif FullComboSymbol(PLAYER_1,6) == true then
+					dColor = jColors[4]
+					IsVisible = true
+					alpha = 0.5
 				else
 					dColor = "#FFFFFF"
 					IsVisible = false
@@ -139,13 +143,17 @@ if IsPlayerEnabled(PLAYER_1) then
 				if FullComboSymbol(PLAYER_1,9) == true then
 					dColor = jColors[1]
 					IsVisible = true
-					text = "Fantastic Full Combo"
+					text = "Ridiculous Full Combo"
 				elseif FullComboSymbol(PLAYER_1,8) == true then
 					dColor = jColors[2]
 					IsVisible = true
-					text = "Excellent Full Combo"
+					text = "Fantastic Full Combo"
 				elseif FullComboSymbol(PLAYER_1,7) == true then
 					dColor = jColors[3]
+					IsVisible = true
+					text = "Excellent Full Combo"
+				elseif FullComboSymbol(PLAYER_1,6) == true then
+					dColor = jColors[4]
 					IsVisible = true
 					text = "Great Full Combo"
 				else
@@ -185,6 +193,10 @@ if IsPlayerEnabled(PLAYER_2) then
 					dColor = jColors[3]
 					IsVisible = true
 					alpha = 0.5
+				elseif FullComboSymbol(PLAYER_2,6) == true then
+					dColor = jColors[4]
+					IsVisible = true
+					alpha = 0.5
 				else
 					dColor = "#FFFFFF"
 					IsVisible = false
@@ -210,13 +222,17 @@ if IsPlayerEnabled(PLAYER_2) then
 				if FullComboSymbol(PLAYER_2,9) == true then
 					dColor = jColors[1]
 					IsVisible = true
-					text = "Fantastic Full Combo"
+					text = "Ridiculous Full Combo"
 				elseif FullComboSymbol(PLAYER_2,8) == true then
 					dColor = jColors[2]
 					IsVisible = true
-					text = "Excellent Full Combo"
+					text = "Fantastic Full Combo"
 				elseif FullComboSymbol(PLAYER_2,7) == true then
 					dColor = jColors[3]
+					IsVisible = true
+					text = "Excellent Full Combo"
+				elseif FullComboSymbol(PLAYER_2,6) == true then
+					dColor = jColors[4]
 					IsVisible = true
 					text = "Great Full Combo"
 				else
